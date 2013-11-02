@@ -153,7 +153,7 @@ public class StartBase extends FragmentActivity {
 						}
 					});
 				} catch (Exception e) {
-					Toast.makeText(getApplicationContext(), "Royally Screwed",
+					Toast.makeText(getApplicationContext(), "You're offline",
 							Toast.LENGTH_LONG).show();
 				}
 
@@ -217,7 +217,7 @@ public class StartBase extends FragmentActivity {
 					}
 				});
 			} catch (Exception e) {
-				Toast.makeText(getApplicationContext(), "Royally Screwed",
+				Toast.makeText(getApplicationContext(), "Error",
 						Toast.LENGTH_LONG).show();
 			}
 
